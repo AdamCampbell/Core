@@ -1,5 +1,14 @@
 # CocoaPods Core Changelog
 
+## Master
+
+##### Enhancements
+
+* Podfiles now have a `checksum` property that reflects the internal state of
+  the Podfile.
+  [Samuel Giddins](https://github.com/segiddins)
+
+
 ## 0.39.0.beta.2 (2015-08-27)
 
 ##### Bug Fixes
@@ -11,7 +20,7 @@
 
 ## 0.39.0.beta.1 (2015-08-26)
 
-##### Enhancments
+##### Enhancements
 
 * Gracefully handle missing root podspecs when auto-detecting.  
   [Hugo Tunius](https://github.com/k0nserv)
